@@ -32,3 +32,10 @@ h1 {
 .sketched-square {
     background-color: black;
 }
+
+button {
+    display:block;
+    height:30px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
