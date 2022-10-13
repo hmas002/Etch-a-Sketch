@@ -22,14 +22,13 @@ h1 {
 }
 
 /* need to set flex to 1 so that each square will be of equal width and all squares will take up entire row*/
-.column {
+.square {
     flex: 1;
     border: 0.5px solid red;
     background-color: white;
-    transition: all 1s ease;
+    transition: all 0.3s ease;
 }
 
-.column:hover {
-    background-color: red;
-    border-color: black;
+.sketched-square {
+    background-color: black;
 }
