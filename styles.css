@@ -1,0 +1,35 @@
+body {
+    background-color: lightslategrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    border:3px solid black;
+}
+
+/* need to set flex-basis to 100% so each row is on its own line */
+.row {
+    display: flex;
+    flex-basis: 100%;
+}
+
+/* need to set flex to 1 so that each square will be of equal width and all squares will take up entire row*/
+.column {
+    flex: 1;
+    border: 0.5px solid red;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+.column:hover {
+    background-color: red;
+    border-color: black;
+}
